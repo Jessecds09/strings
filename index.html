@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferramenta de Extração de Palavras-Chave</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Extrator de Palavras-Chave</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
     <div class="container">
-        <h1>Ferramenta de Extração de Palavras-Chave</h1>
-        <h2 class="subtitle">Cole seu texto abaixo e clique em "Extrair" para ver as palavras-chave!</h2>
-        <label for="entrada-de-texto" class="visually-hidden">Texto para análise</label>
-        <textarea id="entrada-de-texto" placeholder="Digite ou cole seu texto aqui..." rows="8"></textarea>
-        <button id="botao-palavrachave" aria-label="Extrair palavras-chave">Extrair</button>
-        <div id="resultado-palavrachave"></div>
+        <h1>🔍 Extrator de Palavras-Chave</h1>
+        <textarea id="entrada-de-texto" placeholder="Digite ou cole seu texto aqui..."></textarea>
+        <button id="botao-palavrachave">Extrair Palavras</button>
+        <div id="resultado-palavrachave" class="resultado-box"></div>
     </div>
-    <footer>
-        <p>Desenvolvido por Jessecds09 &copy; 2025</p>
-    </footer>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </body>
-
 </html>
